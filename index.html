@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Space</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="memory-container">
+            <div class="input-feild">
+                <input onkeyup="getInputValue()" type="text"> 
+                <span>%</span>
+                <button class="btn">Speak</button>
+                <p class="error"></p>
+            </div>
+            
+            <div class="memory-circle">
+                <div class="momery-top"></div>
+                <div class="momery-bottom"></div>
+                <div class="memory-details">
+                    <h5 class="available">10 % Available</h5>
+                    <h5 class="loaded">90 % Loaded</h5>
+                </div>
+            </div>
+            
+            <div class="memory-tringle">
+                <div class="memory-tringle-body"></div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
